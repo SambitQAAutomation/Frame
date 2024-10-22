@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public class Base {
-	WebDriver driver;
+	public WebDriver driver;
 	
 @BeforeClass
 public void OpenBrowsder() {
