@@ -1,17 +1,17 @@
 package com.project.script;
 
-import org.openqa.selenium.By;
+import java.time.Duration;
+
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.project.generic.Base;
-import com.project.pom.LoginPom;
 @Listeners(com.project.generic.ListnerImplementation.class)
 public class TestScript extends Base {
 	
-@Test
+@Test(invocationCount = 1)
 public void Test() {
-
 	
 }
 }

@@ -5,6 +5,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -19,6 +20,7 @@ import com.project.pom.LoginPom;
 
 public class Base {
 	public WebDriver driver;
+	public WebDriverWait wait;
 	
 @BeforeTest
 public void OpenBrowsder() {
