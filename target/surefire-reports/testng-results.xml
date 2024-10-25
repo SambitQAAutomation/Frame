@@ -5,28 +5,28 @@
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-10-23T15:10:26 IST" name="Suite" finished-at="2024-10-23T15:10:27 IST" duration-ms="1718">
+  <suite started-at="2024-10-24T17:28:34 IST" name="Suite" finished-at="2024-10-24T17:28:38 IST" duration-ms="3934">
     <groups>
     </groups>
-    <test started-at="2024-10-23T15:10:26 IST" name="Test" finished-at="2024-10-23T15:10:27 IST" duration-ms="1718">
+    <test started-at="2024-10-24T17:28:34 IST" name="Test" finished-at="2024-10-24T17:28:38 IST" duration-ms="3934">
       <class name="com.project.script.TestScript">
-        <test-method is-config="true" signature="OpenBrowsder()[pri:0, instance:com.project.script.TestScript@3daa422a]" started-at="2024-10-23T15:10:26 IST" name="OpenBrowsder" finished-at="2024-10-23T15:10:27 IST" duration-ms="1174" status="PASS">
+        <test-method is-config="true" signature="OpenBrowsder()[pri:0, instance:com.project.script.TestScript@3febb011]" started-at="2024-10-24T17:28:34 IST" name="OpenBrowsder" finished-at="2024-10-24T17:28:35 IST" duration-ms="1138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowsder -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:com.project.script.TestScript@3daa422a]" started-at="2024-10-23T15:10:27 IST" name="Login" finished-at="2024-10-23T15:10:27 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:com.project.script.TestScript@3febb011]" started-at="2024-10-24T17:28:35 IST" name="Login" finished-at="2024-10-24T17:28:38 IST" duration-ms="2775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Test()[pri:0, instance:com.project.script.TestScript@3daa422a]" started-at="2024-10-23T15:10:27 IST" name="Test" finished-at="2024-10-23T15:10:27 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.project.script.TestScript@3febb011]" started-at="2024-10-24T17:28:38 IST" name="Test" finished-at="2024-10-24T17:28:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.project.script.TestScript@3daa422a]" started-at="2024-10-23T15:10:27 IST" name="logOut" finished-at="2024-10-23T15:10:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.project.script.TestScript@3febb011]" started-at="2024-10-24T17:28:38 IST" name="logOut" finished-at="2024-10-24T17:28:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.script.TestScript@3daa422a]" started-at="2024-10-23T15:10:27 IST" name="closeBrowser" finished-at="2024-10-23T15:10:27 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.script.TestScript@3febb011]" started-at="2024-10-24T17:28:38 IST" name="closeBrowser" finished-at="2024-10-24T17:28:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>

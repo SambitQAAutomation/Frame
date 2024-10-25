@@ -5,28 +5,28 @@
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-10-24T15:36:22 IST" name="Default suite" finished-at="2024-10-24T15:36:25 IST" duration-ms="3454">
+  <suite started-at="2024-10-24T17:18:08 IST" name="Default suite" finished-at="2024-10-24T17:18:11 IST" duration-ms="3375">
     <groups>
     </groups>
-    <test started-at="2024-10-24T15:36:22 IST" name="Default test" finished-at="2024-10-24T15:36:25 IST" duration-ms="3454">
+    <test started-at="2024-10-24T17:18:08 IST" name="Default test" finished-at="2024-10-24T17:18:11 IST" duration-ms="3375">
       <class name="com.project.script.TestScript">
-        <test-method is-config="true" signature="OpenBrowsder()[pri:0, instance:com.project.script.TestScript@7b2bbc3]" started-at="2024-10-24T15:36:22 IST" name="OpenBrowsder" finished-at="2024-10-24T15:36:23 IST" duration-ms="1141" status="PASS">
+        <test-method is-config="true" signature="OpenBrowsder()[pri:0, instance:com.project.script.TestScript@1aafa419]" started-at="2024-10-24T17:18:08 IST" name="OpenBrowsder" finished-at="2024-10-24T17:18:09 IST" duration-ms="1197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowsder -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:com.project.script.TestScript@7b2bbc3]" started-at="2024-10-24T15:36:23 IST" name="Login" finished-at="2024-10-24T15:36:25 IST" duration-ms="2291" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:com.project.script.TestScript@1aafa419]" started-at="2024-10-24T17:18:09 IST" name="Login" finished-at="2024-10-24T17:18:11 IST" duration-ms="2159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="Test()[pri:0, instance:com.project.script.TestScript@7b2bbc3]" started-at="2024-10-24T15:36:25 IST" name="Test" finished-at="2024-10-24T15:36:25 IST" duration-ms="4" status="PASS">
+        <test-method signature="Test()[pri:0, instance:com.project.script.TestScript@1aafa419]" started-at="2024-10-24T17:18:11 IST" name="Test" finished-at="2024-10-24T17:18:11 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.project.script.TestScript@7b2bbc3]" started-at="2024-10-24T15:36:25 IST" name="logOut" finished-at="2024-10-24T15:36:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.project.script.TestScript@1aafa419]" started-at="2024-10-24T17:18:11 IST" name="logOut" finished-at="2024-10-24T17:18:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.script.TestScript@7b2bbc3]" started-at="2024-10-24T15:36:25 IST" name="closeBrowser" finished-at="2024-10-24T15:36:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.project.script.TestScript@1aafa419]" started-at="2024-10-24T17:18:11 IST" name="closeBrowser" finished-at="2024-10-24T17:18:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>
