@@ -10,7 +10,7 @@ import com.project.pom.LoginPom;
 public class TestScript extends Base {
 	
 @Test
-public void Test() {
+public void TC01() {
 
 	
 }
