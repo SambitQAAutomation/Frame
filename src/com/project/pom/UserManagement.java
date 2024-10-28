@@ -11,4 +11,10 @@ public class UserManagement {
 	public WebElement Admin;
 	@FindBy(xpath = "//span[text()='User']")
 	public WebElement User;
+	@FindBy(xpath = "//button[text()=' Add New ']")
+	public WebElement AddNew;
+	@FindBy(xpath = "//input[@placeholder='First Name']")
+	public WebElement FirstName;
+	@FindBy(xpath = "//input[@placeholder='Last Name']")
+	public WebElement LastName;
 }
