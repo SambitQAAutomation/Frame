@@ -19,8 +19,8 @@ import com.project.pom.LoginPom;
 
 
 public class Base {
-	public WebDriver driver;
-	public WebDriverWait wait;
+	public static WebDriver driver;
+	public static WebDriverWait wait;
 	
 @BeforeTest
 public void OpenBrowsder() {
@@ -29,23 +29,25 @@ public void OpenBrowsder() {
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
 }
-@AfterTest
-public void closeBrowser() {
-Reporter.log("closeBrowser",true);	
-//driver.quit();
-}
+//@AfterTest
+//public void closeBrowser() {
+//Reporter.log("closeBrowser",true);	
+////driver.quit();
+//}
 
 @BeforeMethod
-public void Login() throws IOException {
+public void Login() throws IOException, InterruptedException {
 	FileLib f=new FileLib();
 	String url = f.getPropertyData("url");
 	driver.get(url);
-	//LoginPom l=new LoginPom(driver);
-	//l.setLogin(un,pw);
+	String pw = f.getPropertyData("pw");
+	String un = f.getPropertyData("un");
+	LoginPom l=new LoginPom(driver);
+	l.setLogin(un,pw);
 }
-@AfterMethod
-public void logOut(){
-	//driver.quit();
-}
+//@AfterMethod
+//public void logOut(){
+////	driver.quit();
+//}
 
 }
