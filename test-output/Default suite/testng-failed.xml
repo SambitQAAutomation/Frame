@@ -6,10 +6,9 @@
       <class name="com.project.script.TestScript">
         <methods>
           <include name="OpenBrowsder"/>
-          <include name="closeBrowser"/>
-          <include name="logOut"/>
+          <include name="ClickDevices"/>
+          <include name="CreateRinger"/>
           <include name="Login"/>
-          <include name="Test"/>
         </methods>
       </class> <!-- com.project.script.TestScript -->
     </classes>

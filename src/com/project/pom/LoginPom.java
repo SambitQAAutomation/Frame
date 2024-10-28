@@ -8,21 +8,22 @@ import org.openqa.selenium.support.PageFactory;
 import com.project.generic.FileLib;
 
 public class LoginPom{
-	@FindBy(id="username")
+	@FindBy(xpath = "//input[@placeholder='Email']")
 	private WebElement untbx;
-	
-	@FindBy(name="pwd")
+	@FindBy(xpath = "//input[@placeholder='Password']")
 	private WebElement pwtbx;
-	
-	@FindBy(xpath="//div[text()='Login ']")
-	private WebElement lgBtn;
+	@FindBy(xpath="//button[@class='visibility-icon']")
+	public WebElement eye;
+	@FindBy(xpath = "//button[text()='Sign In']")
+	public WebElement Signbutton;
 	
 	public LoginPom(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 	}
-	public void setLogin(String un,String pw) {
+	public void setLogin(String un,String pw) throws InterruptedException {
 	untbx.sendKeys(un);
 	pwtbx.sendKeys(pw);
-	lgBtn.click();		
+	Thread.sleep(50000);
+	Signbutton.click();		
 	}	
 }
