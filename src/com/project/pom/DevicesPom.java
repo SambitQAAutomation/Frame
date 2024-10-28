@@ -24,8 +24,8 @@ public WebElement CancelButton;
 public WebElement SubmitButton;
 @FindBy(xpath = "//span[text()='User']")
 public WebElement User;
-@FindBy(xpath = "//button[text()=' Add New ']")
-public WebElement AddNewButton; 
+@FindBy(xpath = "//a[text()=' ADD Device ']")
+public WebElement  ADDDevice ; 
 
 public DevicesPom(WebDriver driver) {
 	PageFactory.initElements(driver, this);
@@ -57,7 +57,7 @@ public WebElement SubmitButton() {
 public WebElement User() {
 	return User;
 }
-public WebElement AddNewButton() {
-	return AddNewButton;
+public WebElement ADDDevice() {
+	return ADDDevice;
 }
 }

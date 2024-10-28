@@ -51,7 +51,7 @@ public void CreateRinger() throws IOException {
    d.SerialNumber().sendKeys(Sl);
    String SerialNumberValue = d.SerialNumber().getAttribute("value");
    Assert.assertEquals(SerialNumberValue, Sl);
-   
    d.SubmitButton().click();
+   
 }
 }
