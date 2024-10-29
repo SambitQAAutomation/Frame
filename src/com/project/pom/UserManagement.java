@@ -17,4 +17,16 @@ public class UserManagement {
 	public WebElement FirstName;
 	@FindBy(xpath = "//input[@placeholder='Last Name']")
 	public WebElement LastName;
+	@FindBy(xpath = "//div[@class='iti__selected-country-primary']")
+	public WebElement CuntCode;
+	@FindBy(xpath = "//input[@placeholder='Search']")
+	public WebElement CuntCodeSearch;
+	@FindBy(xpath = "//span[@class='iti__country-name']")
+	public WebElement ClickInd;
+	@FindBy(xpath = "//input[@placeholder='Email']")
+	public WebElement Email;
+	@FindBy(xpath = "//button[text()='Submit']")
+	public WebElement Submit;
+	@FindBy(xpath = "//button[text()='Cancel']")
+	public WebElement Cancel;
 }
