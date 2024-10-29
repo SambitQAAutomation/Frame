@@ -28,5 +28,5 @@ public class UserManagement {
 	@FindBy(xpath = "//button[text()='Submit']")
 	public WebElement Submit;
 	@FindBy(xpath = "//button[text()='Cancel']")
-	public WebElement Cancel;
+	public WebElement Cancel;;
 }
