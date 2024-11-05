@@ -1,12 +1,14 @@
 package com.project.pom;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class UserManagement {
 
 	@FindBy(xpath = "//span[text()='User Management']")
-	public WebElement UserManagement;
+	public WebElement UserManage;
 	@FindBy(xpath = "//span[text()='Admin']")
 	public WebElement Admin;
 	@FindBy(xpath = "//span[text()='User']")
@@ -28,5 +30,16 @@ public class UserManagement {
 	@FindBy(xpath = "//button[text()='Submit']")
 	public WebElement Submit;
 	@FindBy(xpath = "//button[text()='Cancel']")
-	public WebElement Cancel;;
+	public WebElement Cancel;
+	
+	public UserManagement(WebDriver driver) {
+		PageFactory.initElements(driver, this);
+	}
+	 	
+	public WebElement UserManage() {
+		return UserManage;
+	}
+	public WebElement Admin() {
+		return Admin;
+	}
 }
